@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-imagem{
+    width: 80%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+
+}
+
+.introdução-imagem{
+    width: 25%;
+    border-radius: 10%;
+}
+
+#Quem-somos{
+    background-image: linear-gradient(#000000,#5f6426);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.indrodução-div-conteudo{
+    width: 35%;
+}
+
+
+.introdução-titulo{
+    padding: 20px 0;
+}
+
+#Musicas{
+    padding: 5px 0;
+    background-color: #ffffff;
+}
+
+.musica-nome {
+    color: rgb(0, 0, 0);
+}
+
+.musica-imagem{
+    width: 50%;
+    border-radius: 5%;
+}
+
+.musica-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.Musica-titulo{
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.Musicas-todos{
+    display: grid;
+    align-content: center;
+    
+}
+
+.rodape{
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
